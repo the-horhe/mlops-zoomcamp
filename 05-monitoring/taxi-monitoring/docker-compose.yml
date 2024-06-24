@@ -18,15 +18,6 @@ services:
     networks:
       - back-tier
 
-  adminer:
-    image: adminer
-    restart: always
-    ports:
-      - "8080:8080"
-    networks:
-      - back-tier
-      - front-tier  
-
   grafana:
     image: grafana/grafana
     user: "472"

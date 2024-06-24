@@ -1,3 +1,5 @@
+# evidently not working with 2.0 ATM
+numpy==1.26.4
 prefect
 tqdm
 requests
